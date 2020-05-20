@@ -5,15 +5,18 @@
 <!--Jumbotron-->
 <div class="jumbotron">
   <center><h1 class="display-6">"LA IGUALDAD ES EL ALMA DE LA LIBERTAD"</h1></center>
-  <center><img src="http://blog.tiching.com/wp-content/uploads/2015/03/somosiguales-547x280.png" class="d-block w-50" alt="..."></center>
+  <center><img src="http://blog.tiching.com/wp-content/uploads/2015/03/somosiguales-547x280.png" class="d-block w-50" alt="..." style="margin: 15px;"></center>
   <p class="lead">Disfrutar de los mismos derechos es la mejor manera de promover una vida libre de desigualdad, discriminación y violencia para las niñas, niños y adolescentes.</p>
   <p class="lead">Lograr la igualdad de género y promover la autonomía de las niñas contribuye a que todos los niños alcancen su potencial.</p>
-  <hr class="my-4">PROBLEMATICA</hr>
-  <p>Como bien sabemos muchos de los niños del mundo, se sienten inferiores a otros, por diferentes motivos ya que no todos tienen las mismas comodidades económicas, sociales, territoriales, entre otras.  Con esta página vamos a equilibrar la equidad de genero para todos, dando motivacion a disminuir esta problematica que se vive en cualquier ambito social.</p>
-  <hr class="my-4">METAS DESARROLLADAS PARA TI</hr>
-  <p>Aqui vas a encontrar todos nuestros obejtivos y metas lo cual podemos evidenciar Desigualdad de Genero ya que con esta pagina podemos ayudar a disminuirla.</p>
-  <a class="btn btn-primary btn-lg" href="{{ url_for('doc') }}" role="button">PROYECTO</a>
 
+  <hr class="my-4"><b>PROBLEMATICA</b></hr>
+  <p>Como bien sabemos muchos de los niños del mundo, se sienten inferiores a otros, por diferentes motivos ya que no todos tienen las mismas comodidades económicas, sociales, territoriales, entre otras.  Con esta página vamos a equilibrar la equidad de genero para todos, dando motivacion a disminuir esta problematica que se vive en cualquier ambito social.</p>
+
+  <hr class="my-4"><b>METAS A DESARROLLAR</b></hr>
+  <p style="margin-bottom: 50px;">Aqui vas a encontrar todos nuestros obejtivos y metas lo cual podemos evidenciar Desigualdad de Genero ya que con esta pagina podemos ayudar a disminuirla
+
+  <a class="btn_mas" href="{{ url_for('doc') }}" role="button" target="_blank"> ver mas... </a>.</p>
+<!--btn btn-primary btn-lg-->
 
 <!--TARJETAS INFO-->
 <section class="text-center team">
@@ -35,7 +38,7 @@
             </p>
             <div class="d-flex flex-row justify-content-center">
               <div class="p-4">
-                <a href="{{ url_for('edu') }}"class="btn btn-success">AQUI</a>
+                <a href="{{ url_for('edu') }}"class="btn btn-success" target="_blank">AQUI</a>
               </div>
               
             </div>
@@ -53,7 +56,7 @@
             </p>
             <div class="d-flex flex-row justify-content-center">
               <div class="p-4">
-                <a href="{{ url_for('eco') }}"class="btn btn-success">AQUI</a>
+                <a href="{{ url_for('eco') }}"class="btn btn-success" target="_blank">AQUI</a>
               </div>
               
             </div>
@@ -71,7 +74,7 @@
             </p>
             <div class="d-flex flex-row justify-content-center">
               <div class="p-4">
-                <a href="{{ url_for('soc') }}"class="btn btn-success">AQUI</a>
+                <a href="{{ url_for('soc') }}"class="btn btn-success" target="_blank">AQUI</a>
               </div>
               
             </div>
@@ -268,7 +271,12 @@
             </div>
             <textarea name="" cols="30" rows="10" placeholder="Message" class="form-control"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+          <div style="background-color: orange">
+            <a type="button" href="mns_enviado" class="btn btn-primary btn-block">Enviar</a>
+          </div>
+<!--  
+          <button type="submit" class="btn btn-primary btn-block" >Enviar</button>
+-->
         </form>
       </div>
       <div class="col-lg-3 align-self-center">
@@ -283,7 +291,12 @@
 <p class="lead">https://blog.oxfamintermon.org/el-cambio-social-necesario-para-la-igualdad-de-genero/.</p>
 <p class="lead">http://rimisp.org/wp-content/files_mf/1479842435InformeLatinoamericano2015.pdf.</p>
 </div>
+
 <!--
+
+LA ENVIE AL layout
+
+
 <footer>
   <div class="container p-3">
     <div class="row text-center text-white">
