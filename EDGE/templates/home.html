@@ -1,0 +1,299 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+<!--Jumbotron-->
+<div class="jumbotron">
+  <center><h1 class="display-6">"LA IGUALDAD ES EL ALMA DE LA LIBERTAD"</h1></center>
+  <center><img src="http://blog.tiching.com/wp-content/uploads/2015/03/somosiguales-547x280.png" class="d-block w-50" alt="..."></center>
+  <p class="lead">Disfrutar de los mismos derechos es la mejor manera de promover una vida libre de desigualdad, discriminación y violencia para las niñas, niños y adolescentes.</p>
+  <p class="lead">Lograr la igualdad de género y promover la autonomía de las niñas contribuye a que todos los niños alcancen su potencial.</p>
+  <hr class="my-4">PROBLEMATICA</hr>
+  <p>Como bien sabemos muchos de los niños del mundo, se sienten inferiores a otros, por diferentes motivos ya que no todos tienen las mismas comodidades económicas, sociales, territoriales, entre otras.  Con esta página vamos a equilibrar la equidad de genero para todos, dando motivacion a disminuir esta problematica que se vive en cualquier ambito social.</p>
+  <hr class="my-4">METAS DESARROLLADAS PARA TI</hr>
+  <p>Aqui vas a encontrar todos nuestros obejtivos y metas lo cual podemos evidenciar Desigualdad de Genero ya que con esta pagina podemos ayudar a disminuirla.</p>
+  <a class="btn btn-primary btn-lg" href="{{ url_for('doc') }}" role="button">PROYECTO</a>
+
+
+<!--TARJETAS INFO-->
+<section class="text-center team">
+  <div class="container p-5">
+    <h1 class="text-center text-white">Subtemas</h1>
+    <p class="text-white">
+     Temas que tambien involucra esta problmatica en distintos ambitos.
+    </p>
+    <div class="row">
+      <!-- USER TEAM -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="https://fotos00.deia.eus/2020/03/28/690x278/educacion-on.jpg" class="img-fluid  w-50">
+            <h3>EDUCACION</h3>
+            <p>
+              Como puede afectar la familia al rendimiento de los alumnos.
+             
+            </p>
+            <div class="d-flex flex-row justify-content-center">
+              <div class="p-4">
+                <a href="{{ url_for('edu') }}"class="btn btn-success">AQUI</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="https://www.lifeder.com/wp-content/uploads/2018/07/Sustentabilidad-econ%C3%B3mica1.jpg" class="img-fluid  w-50">
+            <h3>ECONOMIA</h3>
+            <p>
+              Como afecta el sistema economico e incrementa en la desigualdad de genero.
+            </p>
+            <div class="d-flex flex-row justify-content-center">
+              <div class="p-4">
+                <a href="{{ url_for('eco') }}"class="btn btn-success">AQUI</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="https://definicion.mx/wp-content/uploads/2013/08/social.jpg" class="img-fluid  w-50">
+            <h3>SOCIAL</h3>
+            <p>
+              La desigualdad territorial es una realidad significativa en América Latina.
+            </p>
+            <div class="d-flex flex-row justify-content-center">
+              <div class="p-4">
+                <a href="{{ url_for('soc') }}"class="btn btn-success">AQUI</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+</section>
+
+<!-- FACTORES -->
+
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card text-center border-primary">
+          <div class="card-body">
+            <h3>Factor Uno </h3>
+            <p>
+              Recuerda que si ves algunos de estos problemas puedes recibir ayuda de expertos.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-white bg-primary">
+          <div class="card-body">
+            <h3>Factor Dos</h3>
+            <p>
+              El sistema educativo es la estructura social que mejor refleja las creencias y valores dominantes.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center border-primary">
+          <div class="card-body">
+            <h3>Factor Tres</h3>
+            <p>
+              La socialización en función del sexo provoca la desigualdad de género.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-white bg-primary">
+          <div class="card-body">
+            <h3>Factor Cuatro</h3>
+            <p>
+              La socialización diferencial contribuye a confirmar la creencia de que los sexos son diferentes
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- EQUIPO -->
+  <section class="text-center team">
+    <div class="container p-5">
+      <h1 class="text-center text-white">Equipo</h1>
+      <p class="text-white">
+       Aqui encuentras nuestro equipo de trabajo.
+      </p>
+      <div class="row">
+        <!-- USER TEAM -->
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png" class="img-fluid rounded-circle w-50">
+              <h3>Andres Florez</h3>
+              <p>
+               Estudiante de la Udec de Fusagasuga, programa Ingenieria de Sistemas.
+              </p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a href=""></a>
+                </div>
+                <div class="p-4">
+                  <a href="#"></a>
+                </div>
+                <div class="p-4">
+                  <a href="#"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png" class="img-fluid rounded-circle w-50">
+              <h3>Jandy Torres</h3>
+              <p>
+                Estudiante de la Udec de Fusagasuga, programa Ingenieria de Sistemas.
+              </p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a href="#"></a>
+                </div>
+                <div class="p-4">
+                  <a href="#"></a>
+                </div>
+                <div class="p-4">
+                  <a href="#"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png" class="img-fluid rounded-circle w-50">
+              <h3>Santiago Franco</h3>
+              <p>
+                Estudiante de la Udec de Fusagasuga, programa Ingenieria de Sistemas.
+              </p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a href="#"></a>
+                </div>
+                <div class="p-4">
+                  <a href="#"></a>
+                </div>
+                <div class="p-4">
+                  <a href="#"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png" class="img-fluid rounded-circle w-50">
+              <h3>Reinel Soacha</h3>
+              <p>
+                Estudiante de la Udec de Fusagasuga, programa Ingenieria de Sistemas.
+              </p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a href="#"></a>
+                </div>
+                <div class="p-4">
+                  <a href="#"></a>
+                </div>
+                <div class="p-4">
+                  <a href="#"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+<!-- CONTACT0 -->
+<section class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <h3>Contacto</h3>
+        <p>
+          Nos quieres contactar e interecuar, deja tu mensaje!.
+        </p>
+        <form action="">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fas fa-user input-group-text"></i>
+            </div>
+            <input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fas fa-envelope input-group-text"></i>
+            </div>
+            <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fas fa-pencil-alt input-group-text"></i>
+            </div>
+            <textarea name="" cols="30" rows="10" placeholder="Message" class="form-control"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+        </form>
+      </div>
+      <div class="col-lg-3 align-self-center">
+        <img src="https://img1.woman.es/3d/7b/56/igualdad-mujeres-hombres-600.jpg"class="d-block w-50" alt="" >
+      </div>
+    </div>
+  </div>
+</section>
+
+<h1 class="display-6">REFERENCIAS </h1>
+<p class="lead">https://www.celag.org/desigualdad-genero-sistema-economico/.</p>
+<p class="lead">https://blog.oxfamintermon.org/el-cambio-social-necesario-para-la-igualdad-de-genero/.</p>
+<p class="lead">http://rimisp.org/wp-content/files_mf/1479842435InformeLatinoamericano2015.pdf.</p>
+</div>
+<footer>
+  <div class="container p-3">
+    <div class="row text-center text-white">
+      <div class="col ml-auto">
+        <p>Copyright &copy; 2020</p>
+      </div>
+    </div>
+  </div>       
+</footer>
+
+
+
+
+{% endblock %}
